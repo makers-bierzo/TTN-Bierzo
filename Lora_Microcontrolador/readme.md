@@ -11,7 +11,8 @@ En todos los programas que otros compañeros comparten para la comunicación Pun
 
 Concretamente en este caso necesito librerias para manejar el Oled y LoRa, por eso, voy a documentar las diversas formas de instalar librerias en platformio.  
 
-Toda la documentación está en la página oficial de platformio. 
+Toda la documentación está en la página oficial de platformio.  
+
 https://docs.platformio.org/en/latest/librarymanager/index.html
 
 El proceso es muy sencillo usando el entorno grafico cuando la libreria que buscas aparece en los resultados de la busqueda. Pero que sucede si queremos instalar una libreria que no aparece en los resultados:
@@ -32,7 +33,7 @@ platformio lib uninstall
 platformio lib update  
 
 
-El que me interesa en este momento es el comando platformio lib install:
+El que me interesa en este momento es el comando platformio lib install:  
 https://docs.platformio.org/en/latest/userguide/lib/cmd_install.html#usage  
 
 Aquí se explica como se pueden instalar librerías de otras maneras. 
@@ -40,24 +41,17 @@ Aquí se explica como se pueden instalar librerías de otras maneras.
 
 ## Fuentes de información 
 
-Todo empezo con  
 
-Blog de Bricolabs
+
+Blog de Bricolabs  
 https://bricolabs.cc/wiki/guias/lora_ttn  
 
 Blog de Akirasan  
 http://akirasan.net/tag/lora/  
-https://github.com/osresearch/esp32-ttgo
+https://github.com/osresearch/esp32-ttgo  
 
 
-https://github.com/YogoGit/TTGO-LORA32-V1.0  
-
-https://github.com/LilyGO/TTGO-LORA32-V2.0/tree/LilyGO-868-V1.0  
-
-https://github.com/LilyGO/TTGO-LORA32-V2.0  
-
-
-Siéntanse libres de probar otras opciones, aquí dejo el enlace a otras opciones:  
+Siéntanse libres de probar otras opciones, aquí dejo algún enlace:  
 
 Biblioman09  
 https://github.com/CaptIgmu/Arduino/tree/master/esp32/TTGO_LoRa32_OLED  
