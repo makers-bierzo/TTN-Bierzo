@@ -1,6 +1,6 @@
 # Primeros pasos con LoRA y LoRaWAN
 
-El objetivo es adquirir y compartir conocimientos sobre [LoRa]() y sobre [LoRaWAN]() usando [The Things Network](https://www.thethingsnetwork.org/)
+El objetivo es adquirir y compartir conocimientos sobre [LoRa](https://github.com/makers-bierzo/TTN-Bierzo/tree/master/Lora_Microcontrolador/LoRa) y sobre [LoRaWAN](https://github.com/makers-bierzo/TTN-Bierzo/tree/master/Lora_Microcontrolador/LoRaWAN) usando [The Things Network](https://www.thethingsnetwork.org/)
 
 LoRa es el tipo de modulación en radiofrecuencia patentado por Semtech para comunicaciones a grandes distancias con poco consumo de energía.
 
