@@ -1,2 +1,6 @@
-# TTN-Bierzo
-Repositorio creado para compartir todo el proyecto The Things Network Bierzo
+# The Things Network Bierzo
+
+
+## Descripción 
+
+El objetivo es adquirir y compartir conocimientos sobre LoRa, LoRaWAN y The Things Network usando microcontroladores y Raspberry Pi.
