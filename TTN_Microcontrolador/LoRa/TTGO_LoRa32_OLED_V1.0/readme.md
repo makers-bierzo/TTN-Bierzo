@@ -42,8 +42,7 @@ Primero envié a la placa unos ejemplos de la librería Oled para comprobar que 
 
 ### Programa receptor 
 
-Cree un proyecto en PlatformIO para esa placa de desarrollo y use el código [receptor del repositorio de YogoGit](https://github.com/YogoGit/TTGO-LORA32-V1.0/tree/master/Receiver) sin ningún cambio. 
-
+Cree un proyecto en PlatformIO para esa placa de desarrollo y use el código [receptor](https://github.com/YogoGit/TTGO-LORA32-V1.0/tree/master/Receiver) del repositorio de YogoGit, cambiando tan solo la frecuencia a 868. 
 ![Crear receptor](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_02.png)  
 
 ![Build receptor](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_05.png)
@@ -51,14 +50,14 @@ Cree un proyecto en PlatformIO para esa placa de desarrollo y use el código [re
 
 ### Programa transmisor
 
-Cree un proyecto en PlatformIO para esa placa de desarrollo y use el código [transmisor del repositorio de YogoGit](https://github.com/YogoGit/TTGO-LORA32-V1.0/tree/master/Transmitter) sin ningún cambio.
+Cree un proyecto en PlatformIO para esa placa de desarrollo y use el código [transmisor](https://github.com/YogoGit/TTGO-LORA32-V1.0/tree/master/Transmitter) del repositorio de YogoGit, cambiando tan solo la frecuencia a 868.  
 
 ![Crear transmisor](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_08.png)  
 
-![Build receptor](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_06.png)
+![Build receptor](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_06.png)  
 
 
-Todo funciono a la primera.  
+¡Todo funcionó a la primera!  
 
 
 
