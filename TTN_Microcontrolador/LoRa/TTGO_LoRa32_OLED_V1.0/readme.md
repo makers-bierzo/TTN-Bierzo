@@ -18,7 +18,7 @@ Buscando en la red programas de envío y recepción de datos usando TTGO LoRa32 
 
 Siguiendo como referencia el repositorio de YogoGit, traslade ese código a un nuevo proyecto realizado con Visual Studio Code y PlatformIO.
 
-![Visual Studio Code con PlatformIO](/ruta/a/la/imagen.jpg)
+![Visual Studio Code con PlatformIO](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_01.png)
 
 
 ### Instalación de las librerías 
