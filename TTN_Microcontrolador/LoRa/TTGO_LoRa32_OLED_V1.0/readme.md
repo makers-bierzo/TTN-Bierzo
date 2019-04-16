@@ -25,35 +25,37 @@ Siguiendo como referencia el repositorio de YogoGit, traslade ese código a un n
 
 [ThingPulse ESP8266 OLED SSD1306](https://github.com/ThingPulse/esp8266-oled-ssd1306)
 
-![Visual Studio Code con PlatformIO](/ruta/a/la/imagen.jpg)
+![Libreria Oled](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_03.png)
 
 
 [Arduino LoRa](https://github.com/sandeepmistry/arduino-LoRa)
 
-![Visual Studio Code con PlatformIO](/ruta/a/la/imagen.jpg)
+![libreria LoRA](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_04.png)
 
 
 ### Primeras pruebas con ejemplos de la librería Oled 
 
 Primero envié a la placa unos ejemplos de la librería Oled para comprobar que todo funcionaba correctamente. 
 
-![Visual Studio Code con PlatformIO](/ruta/a/la/imagen.jpg)
+![Test Oled](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_07.png)
 
 
 ### Programa receptor 
 
 Cree un proyecto en PlatformIO para esa placa de desarrollo y use el código [receptor del repositorio de YogoGit](https://github.com/YogoGit/TTGO-LORA32-V1.0/tree/master/Receiver) sin ningún cambio. 
 
-![Visual Studio Code con PlatformIO](/ruta/a/la/imagen.jpg)
-![Visual Studio Code con PlatformIO](/ruta/a/la/imagen.jpg)
+![Crear receptor](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_02.png)  
+
+![Build receptor](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_05.png)
 
 
 ### Programa transmisor
 
 Cree un proyecto en PlatformIO para esa placa de desarrollo y use el código [transmisor del repositorio de YogoGit](https://github.com/YogoGit/TTGO-LORA32-V1.0/tree/master/Transmitter) sin ningún cambio.
 
-![Visual Studio Code con PlatformIO](/ruta/a/la/imagen.jpg)
-![Visual Studio Code con PlatformIO](/ruta/a/la/imagen.jpg)
+![Crear transmisor](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_08.png)  
+
+![Build receptor](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRa/TTGO_LoRa32_OLED_V1.0/Img/Cap_06.png)
 
 
 Todo funciono a la primera.  
