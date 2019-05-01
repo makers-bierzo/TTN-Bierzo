@@ -64,7 +64,7 @@ Con estos datos de manera simple la conexión se realiza de la siguiente manera:
 
 La principal ventaja de la conexión tipo OTAA es la seguridad ya que la sesión se dice: “se crea en el aire” y se renueva cada vez que el dispositivo pierde la conexión, es apagado o reiniciado, esto dificulta que alguien pueda robar la sesión y clonar el dispositivo.
 
-### ABP
+### Modo ABP
 
 El modo ABP (Activation By Personalization) es el modo más sencillo de conexión, los parámetros de conexión son:
 
