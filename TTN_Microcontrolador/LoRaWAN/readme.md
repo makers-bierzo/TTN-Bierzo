@@ -88,6 +88,10 @@ Para dispositivos que están en movimiento o no tienen excelente recepción este
 
 ## Fuentes de información
 
+
+[LoRa/LoRaWAN tutorial
+](https://www.mobilefish.com/developer/lorawan/lorawan_quickguide_tutorial.html)  
+
 [Haciendo IoT con LoRa](https://medium.com/beelan/haciendo-iot-con-lora-capitulo-2-tipos-y-clases-de-nodos-3856aba0e5be
 )
 
