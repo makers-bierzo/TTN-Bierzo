@@ -323,6 +323,9 @@ void setup () {
 	// Set data rate and transmit power for uplink (note: txpow seems to be ignored by the library)
 	LMIC_setDrTxpow (DR_SF7, 14);
 
+	// Pause to Start
+	delay(1000);
+	
 	// Start job
 	do_send (&sendjob);
 }
