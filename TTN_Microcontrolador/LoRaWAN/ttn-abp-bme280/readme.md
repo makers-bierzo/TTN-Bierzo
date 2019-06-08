@@ -24,7 +24,8 @@ Gracias a la documentación facilitada por [Siot Ingeniería](www.siot-ingenieri
 
 Creamos un [DATA BUCKET](http://docs.thinger.io/sigfox/#steps-in-thingerio-create-a-data-bucket) y un [ACCESS TOKEN](http://docs.thinger.io/sigfox/#steps-in-thingerio-create-an-access-token), siguiendo para esto la guia de [Sigfox](http://docs.thinger.io/sigfox/#introduction)
 
-URL es la dirección del endpoint de Thinger, direccionando al usuario y databucket especifico
+URL es la dirección del endpoint de Thinger, direccionando al usuario y databucket especifico  
+
 https://api.thinger.io/v1/users/{user_id}/buckets/{bucket_id}/data
 
 AUTORIZATION es el acceso token creado en Thinger, adicionando al comienzo la palabra clave
@@ -33,15 +34,15 @@ Berarer asi:
 
 Bearer {access_token}
 
-Integración 
+### Integración 
 
 ![int_bme280_00](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/img/Integracion.png)
 
-Bucket 
+### Bucket 
 
 ![int_bme280_01](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/img/thinger_Bucket.png)
 
-Dashboard 
+### Dashboard 
 
 ![int_bme280_02](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/img/thinger_Dashboard.png)
 
