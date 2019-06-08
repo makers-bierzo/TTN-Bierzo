@@ -20,7 +20,7 @@ De momento esta pensado para transmitir datos a un Gateway de un solo canal y se
 
 ## Integración con Thinger.io
 
-Gracias a la documentación facilitada por [Siot Ingeniería](www.siot-ingenieria.com.co) he podido hacer una integración con Thinger.io
+Gracias a la documentación facilitada por [Siot Ingeniería](http://www.siot-ingenieria.com.co/) he podido hacer una integración con Thinger.io
 
 Creamos un [DATA BUCKET](http://docs.thinger.io/sigfox/#steps-in-thingerio-create-a-data-bucket) y un [ACCESS TOKEN](http://docs.thinger.io/sigfox/#steps-in-thingerio-create-an-access-token), siguiendo para esto la guia de [Sigfox](http://docs.thinger.io/sigfox/#introduction)
 
@@ -28,9 +28,7 @@ URL es la dirección del endpoint de Thinger, direccionando al usuario y databuc
 
 https://api.thinger.io/v1/users/{user_id}/buckets/{bucket_id}/data
 
-AUTORIZATION es el acceso token creado en Thinger, adicionando al comienzo la palabra clave
-
-Berarer asi:
+AUTORIZATION es el acceso token creado en Thinger, adicionando al comienzo la palabra clave Bearer asi:  
 
 Bearer {access_token}
 
