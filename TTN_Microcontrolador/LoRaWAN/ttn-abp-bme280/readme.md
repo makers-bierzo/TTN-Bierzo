@@ -20,11 +20,16 @@ De momento esta pensado para transmitir datos a un Gateway de un solo canal y se
 
 ## Integración con Thinger.io
 
-Gracias a la documentación facilitada por [Siot Ingeniería](http://www.siot-ingenieria.com.co/) he podido hacer una integración con Thinger.io
+Gracias a la documentación facilitada por [Siot Ingeniería](http://www.siot-ingenieria.com.co/) he podido realizar una integración con Thinger.io.
 
-Creamos un [DATA BUCKET](http://docs.thinger.io/sigfox/#steps-in-thingerio-create-a-data-bucket) y un [ACCESS TOKEN](http://docs.thinger.io/sigfox/#steps-in-thingerio-create-an-access-token), siguiendo para esto la guia de [Sigfox](http://docs.thinger.io/sigfox/#introduction)
+### En Thinger.io
 
-URL es la dirección del endpoint de Thinger, direccionando al usuario y databucket especifico  
+Creamos un [DATA BUCKET](http://docs.thinger.io/sigfox/#steps-in-thingerio-create-a-data-bucket) y un [ACCESS TOKEN](http://docs.thinger.io/
+sigfox/#steps-in-thingerio-create-an-access-token), siguiendo para esto la guia de [Sigfox](http://docs.thinger.io/sigfox/#introduction)
+
+### En Aplications en la consola de The Things Network realizamos la integración HTTP
+
+URL es la dirección del enlace a Thinger, direccionando al usuario y databucket especifico  
 
 https://api.thinger.io/v1/users/{user_id}/buckets/{bucket_id}/data
 
@@ -32,15 +37,15 @@ AUTORIZATION es el acceso token creado en Thinger, adicionando al comienzo la pa
 
 Bearer {access_token}
 
-### Integración 
+### Ejemlo de Integración 
 
 ![int_bme280_00](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/img/Integracion.png)
 
-### Bucket 
+### Ejemplo de Bucket 
 
 ![int_bme280_01](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/img/thinger_Bucket.png)
 
-### Dashboard 
+### Ejemplo de Dashboard 
 
 ![int_bme280_02](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/img/thinger_Dashboard.png)
 
