@@ -37,7 +37,7 @@ AUTORIZATION es el acceso token creado en Thinger, adicionando al comienzo la pa
 
 Bearer {access_token}
 
-### Ejemlo de Integración 
+### Ejemplo de Integración 
 
 ![int_bme280_00](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/img/Integracion.png)
 
