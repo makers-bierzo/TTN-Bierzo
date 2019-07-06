@@ -8,11 +8,11 @@ De momento esta pensado para transmitir algunos datos de los sensores a un Gatew
 
 ## Pasos
 
-1. Se actualizo el Firmware del Pysense siguiendo los pasos de este tutorial: [Pycom Pysense & Pytrack: How to Update Firmware](https://core-electronics.com.au/tutorials/pycom-pysense-pytrack-firmware-update.html)
+Se actualizo el Firmware del Pysense siguiendo los pasos de este tutorial: [Pycom Pysense & Pytrack: How to Update Firmware](https://core-electronics.com.au/tutorials/pycom-pysense-pytrack-firmware-update.html)
 
-2. Se actualizo el Firmware del Lopy4 siguiendo los pasos de Pycom: [Updating Firmware](https://docs.pycom.io/gettingstarted/installation/firmwaretool.html)
+Se actualizo el Firmware del Lopy4 siguiendo los pasos de Pycom: [Updating Firmware](https://docs.pycom.io/gettingstarted/installation/firmwaretool.html)
 
-3. Fueron de gran ayuda los siguientes enlaces de [Core Electronics](https://core-electronics.com.au/): 
+Fueron de gran ayuda los siguientes enlaces de [Core Electronics](https://core-electronics.com.au/): 
 
 [Getting Started on The Things Network](https://core-electronics.com.au/tutorials/getting-started-on-the-things-network-tutorial.html)
 
