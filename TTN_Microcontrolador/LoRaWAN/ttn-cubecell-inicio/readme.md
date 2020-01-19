@@ -126,8 +126,8 @@ Configure DevEui en "0000000000000000", envíe el siguiente comando a través de
 
 El comando que se ejecuta correctamente responderá:  
 
-+OK  
-+DevEui=0000000000000000(For OTAA Mode)  
+    +OK  
+    +DevEui=0000000000000000(For OTAA Mode)  
 
 **AppEui**
 Configure AppEui en "0000000000000000", envíe el siguiente comando a través del puerto serie:
@@ -136,8 +136,8 @@ Configure AppEui en "0000000000000000", envíe el siguiente comando a través de
 
 El comando que se ejecuta correctamente responderá:
 
-+OK
-+AppEui=0000000000000000(For OTAA Mode)
+    +OK
+    +AppEui=0000000000000000(For OTAA Mode)
 
 **AppKey**  
 Configure AppKey a “00000000000000000000000000000000”, envíe el siguiente comando a través del puerto serie:
@@ -146,8 +146,8 @@ Configure AppKey a “00000000000000000000000000000000”, envíe el siguiente c
 
 El comando que se ejecuta correctamente responderá:
 
-+OK
-+AppKey=00000000000000000000000000000000(For OTAA Mode)
+    +OK
+    +AppKey=00000000000000000000000000000000(For OTAA Mode)
 
 
 #### Parámetros ABP  
@@ -161,35 +161,35 @@ Configure NwkSKey a “00000000000000000000000000000000”, envíe el siguiente 
 
 El comando que se ejecuta correctamente responderá:
 
-+OK
-+NwkSKey=00000000000000000000000000000000(For ABP Mode)
+    +OK
+    +NwkSKey=00000000000000000000000000000000(For ABP Mode)
 
 **AppSKey**
 Configure AppSKey a “00000000000000000000000000000000”, envíe el siguiente comando a través del puerto serie:
 
-AT+AppSKey=00000000000000000000000000000000
+    AT+AppSKey=00000000000000000000000000000000
 
 El comando que se ejecuta correctamente responderá:
 
-+OK
-+AppSKey=00000000000000000000000000000000(For ABP Mode)
+    +OK
+    +AppSKey=00000000000000000000000000000000(For ABP Mode)
 
 **DevAddr**
 
 Configure DevAddr a “00000000”, envíe el siguiente comando a través del puerto serie:
 
-AT+DevAddr=00000000
+    AT+DevAddr=00000000
 
 El comando que se ejecuta correctamente responderá:
 
-+OK
-+DevAddr=00000000(For ABP Mode)
+    +OK
+    +DevAddr=00000000(For ABP Mode)
 
 
 **Duty Cycle**  
 El período de envío de datos predeterminado del nodo LoRa es de 15 segundos, cambie este período a 60 segundos:
 
-AT+DutyCycle=60000
+    AT+DutyCycle=60000
 
 **Restablecer CubeCell**  
 Los parámetros de LoRaWAN deben restablecerse a activos, CubeCell puede restablecerse mediante tres métodos:
