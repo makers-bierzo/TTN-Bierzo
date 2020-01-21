@@ -18,13 +18,21 @@ Hay dos métodos para instalar el Framework CubeCell, elija uno de ellos.
 ## Usando el Gestor de tarjetas Arduino 
 Abrir el IDE de Arduino, y clic en Archivo => Preferencias 
 
+![captura1](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura1.PNG)
+
 En la pestaña de Ajustes, introducir la siguiente URL de JSON en el Gestor de URLs Adicionales de Tarjetas:
 
 https://docs.heltec.cn/download/package_CubeCell_index.json
 
+![captura2](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura2.PNG)
+
 Después Clic en Herramientas => Placa: => Gestor de tarjetas... 
 
+![captura4](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura4.PNG)
+
 Buscar Heltec cubecell en el cuadro de dialogo, seleccionar la ultima versión y clic en instalar. 
+
+![captura5](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura5.PNG)
 
 ## Usando Git 
 
