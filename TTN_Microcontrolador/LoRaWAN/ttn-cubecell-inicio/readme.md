@@ -26,6 +26,8 @@ https://docs.heltec.cn/download/package_CubeCell_index.json
 
 ![captura2](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura2.PNG)
 
+![captura3](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura3.PNG)
+
 Después Clic en Herramientas => Placa: => Gestor de tarjetas... 
 
 ![captura4](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura4.PNG)
@@ -49,6 +51,9 @@ Además necesitaremos una puerta de enlace LoRaWAN estándar con al menos 8 cana
 ## Configuraciones de la placa.
 
 Conecte su placa CubeCell a la computadora a través de un cable Micro USB.  
+
+![captura6](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura6.PNG)
+
 Tememos las siguientes opciones en el menú Herramientas de Arduino:
 
 - Placa: Elija el hardware correcto conectado a su computadora;
@@ -70,6 +75,8 @@ LORAWAN\_Net\_Reservation se usa por ejemplo en un corte de energía a gran esca
 
 Aquí sólo cambiamos a la región europea en LORAWAN\_REGION seleccionando REGION\_EU868 y elegimos el método de activación OTAA o ABP.
 
+![captura7](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura7.PNG)
+
 **Nota**:  
 **Las configuraciones del menú de herramientas deben coincidir con las configuraciones en la aplicación de The Things Network.**
 
@@ -78,7 +85,11 @@ Aquí sólo cambiamos a la región europea en LORAWAN\_REGION seleccionando REGI
 
 En la ruta "LoRa" de ejemplos para CubeCell-Board, todos los ejemplos nombrados con el formato "LoRaWAN_xxx" son los ejemplos con el protocolo LoRaWAN, elija uno de ellos. 
 
+![captura8](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura8.PNG)
+
 Nosotros elegimos el primero: LoRaWan que enviará un payload:00 01 02 03. Lo compilamos y lo subimos a la tarjeta CubeCell. 
+
+![captura10](https://raw.githubusercontent.com/makers-bierzo/TTN-Bierzo/master/TTN_Microcontrolador/LoRaWAN/ttn-cubecell-inicio/img/Captura10.PNG)
 
 No importa qué plataforma de gestión de LoRa se use, se necesitan parámetros DevEui, AppKey, etc. Y asegúrese de que sea coherente con la configuración relevante en el servidor.
 
