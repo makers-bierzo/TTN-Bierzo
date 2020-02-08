@@ -1,0 +1,10 @@
+
+function Decoder(bytes, port) {
+  
+  var decoded = {};
+    
+  decoded.battery = ((bytes[0] << 8) | bytes[1]) / 1000.0 ;
+    
+  return decoded;
+  
+}
